@@ -1,10 +1,15 @@
-* {
-	margin: 0;
-	padding: 0;
-	font-family: 'Lato', sans-serif;
+@font-face {
+	font-family: "CaviarDreams";
+	src: url(./CaviarDreams_Bold.ttf) format("truetype");
 }
 
-#text {
-	text-align: center;
-	font-size: 40vw;
+* {
+	font-family: CaviarDreams, sans-serif;
+}
+
+#t {
+	position: absolute;
+	bottom: 10;
+	right: 20;
+	color: grey;
 }
